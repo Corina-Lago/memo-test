@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    width: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom, #0ff, rgba(228, 114, 177, 0.945))
+}
+
+.memotest-header {
+    display: flex;  
+    justify-content: center;
+}
+
+.reinicio {
+    display: flex;  
+    justify-content: center;
+}
+
+.juego {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.carta {
+    width: 150px;
+    height: 150px;
+}
+
+.footer {
+    display: flex;  
+    justify-content: center;
+}
