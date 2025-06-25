@@ -1,11 +1,11 @@
-*{
-    margin: 0;
+*{  margin: 0;
     padding: 0;
     box-sizing: border-box; 
     width: 100%;
 }
 
 body {
+    background: linear-gradient(to bottom, #0ff, rgba(228, 114, 177, 0.945));
     background: linear-gradient(to bottom, rgb(135, 231, 194), rgba(228, 114, 177, 0.945));
     min-height: 100vh;
     display: flex;
@@ -14,6 +14,11 @@ body {
 }
 
 .memotest-header {
+    display: flex;  
+    justify-content: center;
+
+
+
     margin-top: 25px;
     margin-bottom: 15px;
     text-align: center;
@@ -21,6 +26,8 @@ body {
 } 
 
 .reinicio {
+    display: flex;  
+    justify-content: center;
     border: 2px solid black;
     border-radius: 10%;
     display: block;
@@ -36,6 +43,7 @@ body {
 .juego {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
@@ -47,11 +55,15 @@ body {
 .carta {
     width: 120px;
     height: 120px;
+    width: 120px;
+    height: 120px;
     border: 2px solid black;
     border-radius: 10%;
 }
 
 .footer {
+    display: flex;  
+    justify-content: center;
     display: block;
     text-align: center;
     margin: 20px auto;
